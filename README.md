@@ -8,12 +8,24 @@ twitter api bot to unfollow people that unfollow me
 ## TODOS
 
 - Testing
-- write to csv so i have history of followers
+- Allow user input
+
+## clean.py
+This script unfollows people that don't follow you back and are not verified and have less than 1000 followers.
+
+## updateFollowers.py
+
+This script will create a json of your followers
+
+## snakes.py
+This script takes data.json and compares to current followers who unfollowed and in turn unfollow them.
 
 ## Usage
 
 ```bash
-python3 main.py
+python3 clean.py
+python3 updateFollowers.py
+python3 snakes.py
 ```
 
 ## Limitations/Issues
