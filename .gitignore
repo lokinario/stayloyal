@@ -130,3 +130,7 @@ dmypy.json
 
 # credentials
 credentials.py
+
+# data
+
+data.json
