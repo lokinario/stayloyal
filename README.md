@@ -3,7 +3,7 @@ twitter api bot to unfollow people that unfollow me
 
 ## Author
 
-- **Robert Loquinario** - rloquina - 1549889
+- **Robert Loquinario** - [rloquina](mailto:lokinerio@gmail.com)
 
 ## TODOS
 
