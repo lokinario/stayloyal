@@ -21,6 +21,7 @@ This script will create a json of your followers
 This script takes data.json and compares to current followers who unfollowed and in turn unfollow them.
 
 ## status_update.py
+tweet lol
 
 ## Usage
 
