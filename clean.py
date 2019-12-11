@@ -31,13 +31,16 @@ def main():
     print(len(friends))
 
     snakes = list()
+    bye = 0
     # check whos a snake
     for friend in friends:
         if friend not in followers:
-            snakes.append(friend)
+            api.destroy_friendship(friend)
+            bye = bye + 1
+
+    status = "Unfollowed {} via stayloyal"
+    api.status_update(status.format(bye))
 
 
-    for s in snakes:
-        api.destroy_friendship(s)
 if __name__ == "__main__":
     main()

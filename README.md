@@ -20,12 +20,15 @@ This script will create a json of your followers
 ## snakes.py
 This script takes data.json and compares to current followers who unfollowed and in turn unfollow them.
 
+## status_update.py
+
 ## Usage
 
 ```bash
 python3 clean.py
 python3 updateFollowers.py
 python3 snakes.py
+python3 status_update.py <What ever you wanna tweet>
 ```
 
 ## Limitations/Issues
