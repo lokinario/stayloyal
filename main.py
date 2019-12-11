@@ -30,9 +30,14 @@ def main():
 
     print(len(friends))
 
+    snakes = list()
     # check whos a snake
     for friend in friends:
         if friend not in followers:
-            print(friend)
+            snakes.append(friend)
+
+
+    for s in snakes:
+        api.destroy_friendship(s)
 if __name__ == "__main__":
     main()
