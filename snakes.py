@@ -22,7 +22,10 @@ def main():
         for f in data['followers']:
             if f not in followers:
                 print("bye ", f)
-                api.destroy_friendship(f)
+                try:
+                    api.destroy_friendship(f)
+                except Exception as e:
+                    print(e, " or changed name prob")
 
 
 if __name__ == "__main__":
